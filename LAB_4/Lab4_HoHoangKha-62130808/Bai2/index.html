@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <style type="text/css">
+        .box {
+            width: 500px;
+            height: 400px;
+            background-color: rgb(255, 0, 0);
+            /* animation: mymove 5s infinite; */
+        }
+        
+        body {
+            font-family: arial;
+            font-size: 24px;
+        }
+        
+        @keyframes mymove {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 300px;
+            }
+        }
+    </style>
+
+
+
+    <script>
+        function stylechange() {
+            document.getElementById("demo").style.backgroundColor = "#ff00ff";
+            document.getElementById("text").innerHTML = "Chữ đã được thay đổi";
+            document.getElementById("text").style.textAlign = "center";
+            document.getElementById("text").style.paddingTop = "50px";
+            document.getElementById("button").style.backgroundColor = "rgb(0, 255, 0)";
+            document.getElementById("button").style.marginLeft = "50px";
+            document.getElementById("button").style.marginTop = "10px";
+            document.getElementById("demo").style.margin = "0 auto";
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="box" id="demo">
+        <p id="text">Hello Lop 62CNTT2</p>
+    </div>
+    <button id="button" onclick="stylechange()">Đổi màu nền</button>
+
+
+</body>
+
+</html>

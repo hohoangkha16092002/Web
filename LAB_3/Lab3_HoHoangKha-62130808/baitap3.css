@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.image_sequence {
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header,
+#container,
+#footer {
+    width: 100%;
+}
+
+.menu_header form {
+    width: 200px;
+    float: right;
+    margin-top: 20px;
+}
+
+.menu_header form input {
+    margin: 0px 5px;
+    padding: 5px 15px;
+    background-color: rgb(183, 180, 180);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.logo {
+    width: 500px;
+    float: left;
+}
+
+.menu_header {
+    width: 500px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu,
+#menu_main {
+    height: 40px;
+    line-height: 40px;
+    list-style-type: none;
+    text-align: right;
+}
+
+#menu li,
+#menu_main li {
+    display: inline-block;
+    padding: 0px 5px;
+    color: rgb(0, 0, 0);
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+#menu li a:hover {
+    color: aqua;
+}
+
+#menu_main {
+    border-top: rgb(50, 50, 50);
+    background-color: rgb(121, 121, 121);
+    text-align: left;
+    padding-left: 5px;
+}
+
+#menu_main li {
+    color: #fff;
+}
+
+#menu_main li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menu_main li a:hover {
+    color: red;
+}
+
+.content {
+    width: 70%;
+    float: left;
+    padding: 5px;
+}
+
+.content img {
+    padding: 10px;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.sider {
+    width: 30%;
+    float: right;
+    padding: 5px;
+}
+
+h3 {
+    color: #CCC;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+h4 {
+    color: aqua;
+    padding: 10px 0px;
+}
+
+.image_sequence {
+    border: 2px solid rgba(184, 184, 184, 0.651);
+    background-color: #CCC;
+    height: fit-content;
+    width: fit-content;
+    max-width: 70%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.image_sequence img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+#link_lien_quan {
+    list-style-type: square;
+    padding-left: 20px;
+    color: deepskyblue;
+}
+
+#link_lien_quan a {
+    color: deepskyblue;
+}
+
+#banner img {
+    width: 100%;
+}
+
+.content p {
+    padding: 20px 0px;
+}
+
+.line {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.589);
+}
+
+#contact_banner {
+    width: 70%;
+}
+
+#footer {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+#contact {
+    margin-top: 10px;
+    width: 60%;
+    float: left;
+}
+
+.sider p {
+    text-align: right;
+}

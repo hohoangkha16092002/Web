@@ -1,0 +1,61 @@
+#calculator>table {
+    box-shadow: 0px 0px 15px currentcolor;
+    border: 5px solid currentcolor;
+    padding: 15px;
+    background-image: linear-gradient(to bottom right, #143601, #1a4301, #245501, #538d22, #73a942, #aad576);
+}
+
+input {
+    font-size: 30px;
+    height: 100px;
+}
+
+.operator,
+.numbers {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+}
+
+input[type=text] {
+    background-color: #aad576;
+    color: rgb(0, 0, 0);
+}
+
+.numbers {
+    background-color: #73a942;
+}
+
+#equal {
+    height: 145px;
+    width: 100%;
+    background-color: #245501;
+    color: white;
+    border-radius: 5px;
+}
+
+.operator {
+    background-color: #aad576;
+}
+
+tr,
+td {
+    border: none;
+}
+
+.operator,
+.numbers,
+.equal {
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    border: none;
+}
+
+.operator:active,
+.numbers:active,
+.equal:active {
+    background-color: #3e8e41;
+    box-shadow: 0 4px #666;
+    transform: translateY(6px);
+}

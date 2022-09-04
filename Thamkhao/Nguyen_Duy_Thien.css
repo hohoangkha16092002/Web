@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.thienTopnav{
+    background-color: rgb(252, 55, 235);
+}
+.thienTopnav>ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    padding: 15px;
+}
+.thienTopnav>ul>li{
+    margin: 0 10px;
+    padding: auto;
+}
+.thienAbout{
+    margin: 20px 200px;
+}
+.thienAboutTopic{
+    margin-top: 20px;
+}
+.thienAboutTopic > ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.thienAboutTopic > ul > li{
+    margin: 0 15px;
+}
+
+.thienAboutMain>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.thienAboutMain>ul>li>img{
+    margin-left: 30px;
+}
+.thienAboutMain>ul>li>p{
+    text-align: center;
+}
+.thienAboutMain>ul>li>span{
+    color: rgb(252, 119, 141);
+    font-weight: bold;
+    margin-left: 110px;
+}
+.thienAboutBottom{
+    margin-top: 80px;
+}
+.thienAboutBottom>ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thienAboutBottom>ul>li{
+    margin: 0 12px;
+}
+footer{
+    display: flex;
+}
+.thienInfo{
+    display: flex;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!-- @HEADER -->
+    <header>
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-5 ml-lg-5">
+                <div id="banner">
+                    <img src="./images/banner.png" class="w-100" alt="">
+                </div>
+            </div>
+            <div class="col-3 d-none d-lg-block">
+                <form class="form-inline my-auto" id="search" action="">
+                    <input class="form-control " type="text" placeholder="Search">
+                    <button class="btn bg-warning" type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./images/slide11.png" alt="First slide" />
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/slide12.png" alt="Second slide" />
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./images/slide14.png" alt="Third slide" />
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-expand-md bg-light navbar-light mb-5  mt-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav w-100 justify-content-around">
+                    <li class="nav-item border-danger">
+                        <a class="nav-link text-black" href="#">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item border-danger">
+                        <a class="nav-link text-black" href="#">GIỚI THIỆU</a>
+                    </li>
+                    <li class="nav-item border-danger">
+                        <a class="nav-link text-black" href="#">SẢN PHẨM</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item border-none border-danger dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" id="navbardrop" data-toggle="dropdown">
+                        TIN TỨC
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Thời trang</a>
+                            <a class="dropdown-item" href="#">Tạp chí thời trang</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            
+            <img src="./images/logo.png" class="w-lg-100 d-lg-none" alt="">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbarlogin">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbarlogin">
+                <ul class="navbar-nav w-100 justify-content-end">
+                    <li class="nav-item border-danger">
+                        <a class="nav-link text-black" href="#">ĐĂNG NHẬP</a>
+                    </li>
+                    <li class="nav-item my-auto" style="">/</li>
+                    <li class="nav-item border-danger">
+                        <a class="nav-link text-black" href="#">ĐĂNG KÝ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="categories">
+        <div class="container">
+            <h3 class="text-uppercase p-2 my-3 bg-light w-100">
+                DANH MỤC SẢN PHẨM
+            </h3>
+            <ul class="list-group list-group-horizontal-sm row">
+                <li class="list-group-item col-sm-4 position-relative">
+                    <img class="w-100" src="./images/anh1.jpg" alt="">
+                </li>
+                <li class="list-group-item col-sm-4 ">
+                    <img class="w-100" src="./images/anh2.jpg" alt="">
+                </li>
+                <li class="list-group-item col-sm-4 ">
+                    <img class="w-100" src="./images/anh3.jpg" alt="">
+                </li>
+                <li class="list-group-item col-sm-4 ">
+                    <img class="w-100" src="./images/anh4.jpg" alt="">
+                </li>
+                <li class="list-group-item col-sm-4 ">
+                    <img class="w-100" src="./images/anh5.jpg" alt="">
+                </li>
+                <li class="list-group-item col-sm-4 ">
+                    <img class="w-100" src="./images/anh6.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <footer class="bg-secondary ">
+        <div class="row">
+            <div class="col-12 col-sm-4 m-5">
+                <h3>SHARED DEAL thời trang cao cấp</h3>
+                <address><i class="fa-solid fa-location-dot"></i> Add: 5/12A Quang Trung, P14, SG</address>
+                <p><i class="fa-solid fa-phone"></i>Phone: (08) 09348335277</p>
+                <p><i class="fa-solid fa-envelope"></i>info@gmail.com</p>
+            </div>
+            <div class="col-12 col-sm-4 m-5">
+                <h3>Giới thiệu</h3>
+                <p>Công ty thời trang cao cấp SHARED DEAL được thành lập vào năm 2020, chuyên câp cấp những dòng sản phẩm thời trang cao cấp</p>
+                <a href=""><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                <a href=""></a><i class="fa-brands fa-instagram"></i></a>
+                <a href=""></a><i class="fa-brands fa-twitter"></i></a>
+                <a href=""></a><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""></a><i class="fa-brands fa-git-square"></i></a>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <p class="">@ 2022 By Hồ Hoàng Kha - 62130808 <br>Facebook: https://www.facebook.com/matcova337/
+            </p>
+        </div>
+    </footer>
+</body>
+
+<script>
+    $(document).ready(function() {
+        $('[data-toggle="popover"]').popover({
+            placement: 'in',
+            trigger: 'hover'
+        });
+    });
+</script>
+
+</html>

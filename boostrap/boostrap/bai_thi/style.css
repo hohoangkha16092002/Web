@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    padding: 5px;
+}

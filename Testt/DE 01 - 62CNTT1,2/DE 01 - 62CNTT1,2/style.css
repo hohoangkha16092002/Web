@@ -1,0 +1,17 @@
+img {}
+
+.menu_top_left {
+    list-style: none;
+}
+
+.menu_top_right {
+    list-style: none;
+    padding-right: 20px;
+}
+
+.banner>img {
+    padding-left: 20px;
+    height: 100px;
+}
+
+.search {}

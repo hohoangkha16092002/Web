@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#masthead {
+    clear: both;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    height: 172px;
+}
+
+.topLine {
+    background-color: #009f3c;
+    height: 10px;
+}
+
+.container {
+    width: 100%;
+    clear: both;
+}
+
+.site-branding {
+    float: left;
+    background-color: #082A38;
+    width: 100%;
+}
+
+.site-branding img {
+    margin: 6px;
+    vertical-align: middle;
+}
+
+a.custom-logo-link {
+    display: block;
+    float: left;
+    margin-right: 0;
+}
+
+.site-identity {
+    text-align: left;
+}
+
+.site-title {
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 500px;
+    padding-top: 26px;
+    font-size: 22px;
+    color: #10a549;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.site-description {
+    color: #7c7c7c;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+}
+
+#quick-contact {
+    float: right;
+    margin-top: 20px;
+}
+
+
+/*-----------------------------*/
+
+.ntu-bg-color {
+    border-top: 1px solid #ffffff;
+}
+
+#menu {
+    position: relative;
+    top: 0px;
+    background-color: #258d7ce0;
+}
+
+#menu li {
+    list-style-type: none;
+    border-right: solid 1px #ccc;
+    display: inline-block;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+#menu li a {
+    display: block;
+    /*Khi sử dụng thuộc tính này thì ko còn thẻ con nằm trong a*/
+    color: #CCC;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+#menu li a:hover {
+    color: white;
+    background-color: yellowgreen;
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: rgb(247, 242, 242);
+    max-width: 325px;
+    border: 1px solid #ccc;
+}
+
+#menu li ul li {
+    border-right: none;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    text-transform: capitalize;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+#menu li ul li a:hover {
+    background-color: yellowgreen;
+}

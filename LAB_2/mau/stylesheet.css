@@ -1,0 +1,42 @@
+/*reset lại padding và margin*/
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    width:1000px;
+    margin: 0 auto; /*trang web luon luon nam o giua*/
+}
+#header{
+    height: 50px;
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 10px;
+}
+#content{
+    width: 100%;
+}
+#col_left{
+    width: 20%;
+    height: 400px;
+    background-color: bisque;
+    float: left;/* thiết lập vùng nam ve bên trái*/
+}
+#main_content{
+    width: 60%;
+    float: left;
+    height: 400px;
+    background-color: aquamarine;
+}
+#col_right{
+    width: 20%;
+    float: right;
+    background-color: azure;
+    height: 400px;
+}
+.clear{clear: both;}
+#footer{
+    width: 100%;
+    height: 20px;
+    background-color: aquamarine;
+}

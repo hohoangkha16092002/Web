@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #212121;
+}
+
+.clear {
+    clear: both !important;
+}
+
+#masthead-container {
+    height: 56px;
+}
+
+#logo_head {
+    line-height: 56px;
+}
+
+#logo_head>img {
+    height: 24px;
+    width: 120px;
+    vertical-align: middle;
+}

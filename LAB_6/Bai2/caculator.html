@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <form id="calculator">
+        <table border="2" align="center" cellpadding="2" cellspacing="20" bgcolor="white">
+            <tr border="none">
+                <td colspan="4">
+                    <input id="display" type="text" Size="20" disabled>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="operator" id="plus" value="+"></td>
+                <td><input type="button" class="operator" id="minus" value="-"></td>
+                <td><input type="button" class="operator" id="times" value="x"></td>
+                <td><input type="button" class="operator" id="div" value="/"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="numbers" id="seven" value="7"></td>
+                <td><input type="button" class="numbers" id="eight" value="8"></td>
+                <td><input type="button" class="numbers" id="nine" value="9"></td>
+                <td id="bang" rowspan="3"><input type="button" class="equal" id="equal" value="="></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="numbers" id="four" value="4"></td>
+                <td><input type="button" class="numbers" id="five" value="5"></td>
+                <td><input type="button" class="numbers" id="six" value="6"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="numbers" id="one" value="1"></td>
+                <td><input type="button" class="numbers" id="two" value="2"></td>
+                <td><input type="button" class="numbers" id="three" value="3"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="numbers" id="zero" value="0"></td>
+                <td><input type="button" class="operator" id="dot" value="."></td>
+                <td><input type="button" class="operator" id="clear" value="C"></td>
+                <td><input type="reset" class="operator" id="allclear" value="AC"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script src="./main.js "></script>
+
+</html>

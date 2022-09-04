@@ -1,0 +1,56 @@
+img.slide {
+    width: 100%;
+    height: auto;
+    max-height: 800px;
+}
+
+img.slide:not(:first-child) {
+    display: none;
+}
+
+.container {
+    width: 900px;
+    height: auto;
+    max-height: 800px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    position: relative;
+    padding: 5px;
+}
+
+.btn-change {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+}
+
+#next {
+    right: 10px;
+}
+
+#prev {
+    left: 10px;
+}
+
+.change-img {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+button {
+    background: rgb(247, 117, 30);
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+button.active {
+    background: rgb(168, 80, 58);
+    color: white;
+}

@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both !important;
+}
+
+header,
+#container,
+footer {
+    width: 100%;
+}
+
+#formsearch {
+    padding: 10px 0;
+}
+
+#formsearch>input[type=button] {
+    background-color: rgb(52, 255, 86);
+}
+
+#top_r {
+    float: right;
+}
+
+.h_m_right {
+    margin: 20px;
+}
+
+.h_m_right a {
+    color: black;
+    text-decoration: none;
+}
+
+.h_m_right a:hover {
+    color: rgb(169, 213, 90);
+}
+
+.h_m_right li {
+    padding-right: 10px;
+    list-style-type: none;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.h_m_right input {
+    height: 50px;
+}
+
+.h_m_right #search {
+    width: 80%;
+}
+
+#menu_main {
+    background-color: rgb(169, 213, 90);
+    padding: 20px;
+}
+
+#logo {
+    float: left;
+    margin: auto;
+    padding-top: 10px;
+    width: 20%;
+}
+
+#menu_main>ul {
+    width: 80%;
+}
+
+#menu_main li {
+    padding: 20px;
+    list-style-type: none;
+    line-height: 20px;
+    display: inline-block;
+}
+
+#menu_main li>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#content {}
+
+#grid>div {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+#grid>img {
+    width: 33%;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    height: 30px;
+    line-height: 30px;
+}
+
+#Deals {
+    float: left;
+    width: 80%;
+}
+
+#Deals>div {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.price {
+    text-align: center;
+    font-size: 15px;
+}
+
+#Deals>a {
+    background-image: url(images/cart.png);
+}
